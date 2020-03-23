@@ -1,0 +1,19 @@
+header {
+    border: 5px solid darkred;
+    background-color: darkseagreen;
+}
+
+main {
+    border: 5px solid navy;
+    background-color: darkgoldenrod;
+}
+
+footer {
+    border: 5px solid darkgreen;
+    background-color: hotpink;
+}
+
+div {
+    border: 1px dotted darkmagenta;
+    background-color: cyan;
+}
