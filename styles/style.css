@@ -21,16 +21,16 @@
 .head {
     margin: auto;
     height: 50px;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .tail {
     height: 100px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .top-menu_align-center {
@@ -41,13 +41,18 @@
 
 /** Basic content: setting fonts, colours and margins for header & footer **/
 
+.page {
+    margin: auto;
+}
+
 .content {
     font-family: sans-serif;
     font-size: 16px;
     color: #303846;
-    margin-top: 80px;
+    top: 50px;
     margin-left: 0;
     margin-right: 0;
+    bottom: 100px;
     justify-content: center;
 }
 
@@ -56,6 +61,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    margin: auto;
 }
 
 .top-menu {
@@ -90,12 +96,8 @@
 
 .content__booking-area {
     background-image: url(../images/moonscape.png);
-    background-size cover;
+    background-size: cover;
     background-position: center;
     background-origin: padding-box;
     background-color: green;
-}
-
-background-color: green;
-
 }

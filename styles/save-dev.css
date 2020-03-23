@@ -1,15 +1,15 @@
 header {
-    border: 5px solid darkred;
+    /* border       : 5px solid darkred; */
     background-color: darkseagreen;
 }
 
 main {
-    border: 5px solid navy;
+    /*  border      : 5px solid navy; */
     background-color: darkgoldenrod;
 }
 
 footer {
-    border: 5px solid darkgreen;
+    /* border       : 5px solid darkgreen; */
     background-color: hotpink;
 }
 
