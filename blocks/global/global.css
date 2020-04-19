@@ -1,0 +1,9 @@
+@import url(./__nav-item/global__nav-item.css);
+@import url(./__nav-link/global__nav-link.css);
+.global {
+	position: relative;
+	font-family: sans-serif;
+	max-width: 1920px;
+	font-size: 16px;
+	color: #303846;
+}

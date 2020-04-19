@@ -1,0 +1,9 @@
+.booking-area__button {
+	border-radius: 15px;
+	border: 2px solid whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}

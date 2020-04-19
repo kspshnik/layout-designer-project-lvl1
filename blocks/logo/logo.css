@@ -1,0 +1,7 @@
+@import url(./_place/logo_place_header.css);
+@import url(./_place/logo_place_booking-area.css);
+.logo {
+	background-image: url(../../images/logo.svg);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+}

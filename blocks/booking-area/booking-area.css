@@ -1,0 +1,18 @@
+@import url(./__name/booking-area__name.css);
+@import url(./__motto/booking-area__motto.css);
+@import url(./__button/booking-area__button.css);
+.booking-area {
+	background-image: url(../../images/moonscape.png);
+	background-size: cover;
+	background-position: center;
+	background-origin: padding-box;
+	width: 100%;
+	min-height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

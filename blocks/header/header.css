@@ -1,0 +1,11 @@
+@import url(./__content/header__content.css);
+@import url(./__menu/header__menu.css);
+
+.header {
+	position: fixed;
+	height: 55px;
+	top: 0;
+	left: 0;
+	right: 0;
+	max-height: 55px;
+}
