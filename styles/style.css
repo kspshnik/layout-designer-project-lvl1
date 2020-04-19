@@ -1,103 +1,187 @@
 /** CSS STYLE **/
 
-.fixed-block {
-    position: fixed;
+.global {
+	position: relative;
+	font-family: sans-serif;
+	max-width: 1920px;
+	font-size: 16px;
+	color: #303846;
 }
 
-.normal-block {
-    position: relative;
+.global__nav-item {
+	list-style: none outside;
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
 
-.flexbox {
-    display: flex;
+.header {
+	position: fixed;
+	height: 55px;
+	top: 0;
+	left: 0;
+	right: 0;
+	max-height: 55px;
 }
 
-.nav-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.header__content {
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
 }
 
-.head {
-    margin: auto;
-    height: 50px;
-    top: 0;
-    left: 0;
-    right: 0;
+.main {
+	position: fixed;
+	top: 55px;
+	bottom: 100px;
+	left: 0;
+	right: 0;
 }
 
-.tail {
-    height: 100px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.footer {
+	position: fixed;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
-.top-menu_align-center {
-    align-items: center
+.main__content {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100%;
 }
 
-;
-
-/** Basic content: setting fonts, colours and margins for header & footer **/
-
-.page {
-    margin: auto;
+.footer__content {
+	position: relative;
+	margin: 0 auto;
 }
 
-.content {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #303846;
-    top: 50px;
-    margin-left: 0;
-    margin-right: 0;
-    bottom: 100px;
-    justify-content: center;
+.header__logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
 }
 
-.content__container {
-    max-width: 1920px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    margin: auto;
+.logo__icon {
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
 }
 
-.top-menu {
-    position: relative;
-    flex-direction: row;
-    justify-content: space-between;
+.logo__icon_place_header {
+	background-size: 50px 50px;
+	height: 55px;
+	width: 55px;
 }
 
-.top-menu__logo {
-    flex-direction: row;
-    justify-content: flex-start;
+.logo__name {
+	margin-left: 10px;
 }
 
-.top-menu__icon {
-    background-image: url(../images/logo.svg);
-    width: 50px;
-    height: 50px;
+.header__menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	flex-wrap: no-wrap;
+	align-items: center;
 }
 
-.top-menu__name {
-    margin-left: 10px;
+.menu__item {
+	margin: auto 10px auto 10px;
+	text-decoration: none;
 }
 
-.top-menu__nav {
-    justify-content: flex-end;
-    flex-wrap: no-wrap;
+.menu__item:hover {
+	text-decoration: underline;
 }
 
-.top-menu__nav-item {
-    margin: auto 10px auto 10px;
+.booking-area {
+	background-image: url(../images/moonscape.png);
+	background-size: cover;
+	background-position: center;
+	background-origin: padding-box;
+	width: 100%;
+	min-height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.content__booking-area {
-    background-image: url(../images/moonscape.png);
-    background-size: cover;
-    background-position: center;
-    background-origin: padding-box;
-    background-color: green;
+.logo__icon_place_booking-area {
+	background-size: 150px;
+	height: 150px;
+	width: 150px;
+	margin: 20px auto;
+}
+
+.booking-area__name {
+	font-size: 24px;
+	line-height: 1.25;
+	font-weight: 900;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.booking-area__motto {
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 1.15;
+	color: whitesmoke;
+}
+
+.booking-area__button {
+}
+
+/* Отладочные свойства , снять перед выкаткой в тестовую эксплуатацию / Dev-deps, to be removed before staging
+    Выделение тэгов блоков стилем границ / Block tag distinguishing by border style */
+
+header {
+	border-style: groove;
+	border-color: lightslategrey;
+}
+
+main {
+	border-style: double;
+	border-color: lightslategrey;
+}
+
+footer {
+	border-style: ridge;
+	border-color: lightslategrey;
+}
+
+div {
+	border-style: solid;
+	border-color: lightslategrey;
+}
+
+section {
+	border-style: dotted;
+	border-color: lightslategrey;
+}
+
+article {
+	border-style: dashed;
+	border-color: lightslategrey;
+}
+
+h1 {
+	border-style: ridge;
+	border-color: thistle;
+}
+
+h2 {
+	border-style: ridge;
+	border-color: lightpink;
 }

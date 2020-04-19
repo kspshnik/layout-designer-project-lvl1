@@ -1,19 +1,29 @@
 header {
-    /* border       : 5px solid darkred; */
+    border: 1px solid darkred;
     background-color: darkseagreen;
 }
 
 main {
-    /*  border      : 5px solid navy; */
+    border: 1px solid navy;
     background-color: darkgoldenrod;
 }
 
-footer {
-    /* border       : 5px solid darkgreen; */
-    background-color: hotpink;
+article {
+    border: 1px solid lightslategrey;
+    background-color: lightcoral;
+}
+
+section {
+    border: 1px solid lightyellow;
+    background-color: lightskyblue;
 }
 
 div {
     border: 1px dotted darkmagenta;
-    background-color: cyan;
+    background-color: lightcyan;
+}
+
+footer {
+    border: 5px solid darkgreen;
+    background-color: hotpink;
 }
