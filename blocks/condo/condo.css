@@ -1,0 +1,10 @@
+@import url(./__about/condo__about.css);
+@import url(./__advantages/condo__advantages.css);
+@import url(./__column/condo__column.css);
+@import url(./__decription/condo__description.css);
+@import url(./__header/condo__header.css);
+@import url(./__image/condo__image.css);
+@import url(./__rest-places/condo__rest-places.css);
+.condo {
+	width: 100%;
+}

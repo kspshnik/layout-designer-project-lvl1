@@ -6,4 +6,11 @@
 	align-items: center;
 	padding-left: 10px;
 	padding-right: 10px;
+	transition: ease-in-out 0.7s;
+}
+.booking-area__button:hover {
+	background-color: #f7f7f7;
+	color: black;
+	border-style: dotted;
+	opacity: 0.5;
 }

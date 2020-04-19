@@ -1,0 +1,6 @@
+.condo__rest-places {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}

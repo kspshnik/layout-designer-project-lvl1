@@ -1,5 +1,10 @@
 @import url(./__nav-item/global__nav-item.css);
 @import url(./__nav-link/global__nav-link.css);
+@import url(./_display/global_display_block.css);
+@import url(./_display/global_display_flex.css);
+@import url(./_display/global_display_grid.css);
+@import url(./__section-wrapper/global__section-wrapper.css);
+@import url(./__placetaker/global__placetaker.css);
 .global {
 	position: relative;
 	font-family: sans-serif;
